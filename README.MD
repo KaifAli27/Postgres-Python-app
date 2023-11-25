@@ -30,3 +30,5 @@ deleteStudent - this function takes in a student_id and deletes the entry in the
 if the user tries to use other functions not mentioned in the application or doesnt pass in a function, the application outputs an error message stating 'Invalid action. Use 'init', 'get_all_students', 'add_student', 'update_student_email', or 'delete_student'.'
 
 Under the name == main , there is a set of if/elif functions that catch the keyword for the action being performed and execute the corresponding method in the class. action is default set to argv(1) which initalizing the table for the other crud operations to be performed. With the help of the python sys module, we can manipulate the functions required to run during the python runtime envirnonment
+
+VIDEO LINK : https://youtu.be/dwbeuaUhAJQ
